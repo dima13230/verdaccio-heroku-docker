@@ -21,3 +21,5 @@ logs:
 middlewares:
   gitlab-oauth:
     enabled: true
+
+url_prefix: https://verein-store.herokuapp.com/
