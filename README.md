@@ -1,6 +1,6 @@
 # verdaccio-heroku-docker
 
-A containerized verdaccio private npm registry configured with github oauth.
+A containerized verdaccio private npm registry configured with gitlab oauth.
 
 ## Deployment
 
@@ -16,12 +16,6 @@ creating the oauth app.
 
 - Add the following config vars to the heroku app. Either do this from the [heroku dashboard](https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard)
 or with the [cli](https://devcenter.heroku.com/articles/config-vars#using-the-heroku-cli).
-
-```
-GITHUB_OAUTH_ORG
-GITHUB_OAUTH_CLIENT_ID
-GITHUB_OAUTH_CLIENT_SECRET
-```
 
 You should now be able to visit the heroku app and login with your github account by clicking the
 login button and going through the oauth flow.
