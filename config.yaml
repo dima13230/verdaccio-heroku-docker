@@ -1,7 +1,7 @@
 storage: ./storage
 auth:
   gitlab-oauth:
-    group: 11183686
+    group: verein-community
     client-id: f48fba5f1448f224f9b3b98709e3e10749e0c959409ae7e66c11de50b79fbcaa
     client-secret: 3d4e0a7f0f8f6ecb32d0026a470a85188062e7080a429f50f1874010b37c156c
 uplinks:
