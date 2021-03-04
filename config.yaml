@@ -16,8 +16,7 @@ packages:
     proxy: npmjs
     access: $all
     publish: $authenticated
-logs:
-  - {type: stdout, format: pretty, level: http}
+
 middlewares:
   gitlab-oauth:
     enabled: true
